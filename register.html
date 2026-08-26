@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Register - BloodCloud</title>
+    <link rel="stylesheet" href="style.css" />
+    <script type="module" src="register-logic.js"></script>
+  </head>
+  <body>
+    <div class="container" style="display: none">
+      <div class="form-container" style="max-width: 500px">
+        <h1>Create Your Donor Profile</h1>
+
+        <div class="form-header">
+          <p>Please fill in your details to register as a donor.</p>
+        </div>
+        <form class="form-box" id="register-form">
+          <div class="input-group">
+            <input type="text" id="name" class="input-field" placeholder="Full Name" />
+            <label for="name" class="floating-label">Full Name</label>
+          </div>
+
+          <div class="input-group">
+            <select id="blood-group" class="input-field">
+              <option value="" disabled selected>Select Blood Group</option>
+              <option value="A+">A+</option>
+              <option value="A-">A-</option>
+              <option value="B+">B+</option>
+              <option value="B-">B-</option>
+              <option value="AB+">AB+</option>
+              <option value="AB-">AB-</option>
+              <option value="O+">O+</option>
+              <option value="O-">O-</option>
+            </select>
+          </div>
+          <div class="input-group">
+            <input
+              type="tel"
+              id="contact"
+              class="input-field"
+              placeholder="Contact Number"
+            />
+            <label for="contact" class="floating-label">Contact Number</label>
+          </div>
+
+          <div class="input-group">
+            <input
+              type="text"
+              id="aadhar"
+              class="input-field"
+              placeholder="Aadhar Card Number"
+            />
+            <label for="aadhar" class="floating-label"
+              >Aadhar Card Number</label
+            >
+          </div>
+
+          <div class="input-group">
+            <label for="report" class="file-upload-label"
+              >Latest Blood Report (PDF):</label
+            >
+            <input type="file" id="report" class="input-field" accept=".pdf" />
+          </div>
+
+          <button type="submit" id="submit" class="form-btn form-btn--submit">
+            Register
+          </button>
+        </form>
+        <div class="form-bottom" style="margin-top: 20px">
+          <p>
+            Already have an account?
+            <a href="index.html" class="form-link">Sign in</a>
+          </p>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>

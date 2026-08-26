@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>BloodCloud - Connecting Donors</title>
+    <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+    <header class="navbar">
+        <div class="navbar-container">
+            <a href="home.html" style="align-items: left; display: flex;" class="navbar-brand">BloodCloud</a>
+            <nav class="navbar-nav">
+                <a href="home.html">Home</a>
+                <a href="find-blood.html">Find Blood</a>
+                <a href="about-us.html">About Us</a>
+                <a href="verify.html" class="btn btn-secondary">Login</a>
+                <a href="register.html" style="color: white" class="btn btn-primary">Register Now</a>
+                <div class="profile-dropdown-container">
+                    <button class="navbar-profile-icon" id="profile-icon-btn">
+                        <img src="images/pfp.png" alt="Profile">
+                        <span class="dropdown-arrow">▼</span>
+                    </button>
+                    <div class="profile-dropdown" id="profile-dropdown">
+                        <a href="#">Personal Details</a>
+                        <button id="theme-toggle" class="dropdown-item">Dark/Light Mode</button>
+                        <a href="#">Support</a>
+                        <a href="#" id="logout-btn">Log Out</a>
+                    </div>
+                </div>
+            </nav>
+        </div>
+    </header>
+    
+    <main>
+        <section class="hero">
+            <div class="hero-container">
+                <h1>Connecting Blood Donors With Patients</h1>
+                <p>A single unit can save three lives, a single gesture can create a million smiles.</p>
+                <div class="hero-buttons">
+                    <a href="#" class="btn btn-primary">Find a Donor</a>
+                    <a href="#" class="btn btn-secondary">Donate Now</a>
+                </div>
+            </div>
+        </section>
+
+        <section class="how-it-works">
+            <div class="how-it-works-container">
+                <h2>How It Works</h2>
+                <div class="steps">
+                    <div class="step">
+                        <h3>1. Register</h3>
+                        <p>Create an account to join our community of donors and recipients.</p>
+                    </div>
+                    <div class="step">
+                        <h3>2. Search</h3>
+                        <p>Find blood donors in your area based on blood type and location.</p>
+                    </div>
+                    <div class="step">
+                        <h3>3. Connect</h3>
+                        <p>Connect with donors directly to arrange a donation.</p>
+                    </div>
+                    <div class="step">
+                        <h3>4. Save a Life</h3>
+                        <p>Your donation can make a world of difference.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer class="footer">
+        <div class="footer-container">
+            <p>&copy; 2026 BloodCloud. All rights reserved.</p>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>

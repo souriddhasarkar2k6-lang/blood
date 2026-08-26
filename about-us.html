@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>About Us - BloodCloud</title>
+    <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+    <header class="navbar">
+        <div class="navbar-container">
+            <a href="home.html" class="navbar-brand">BloodCloud</a>
+            <nav class="navbar-nav">
+                <a href="home.html">Home</a>
+                <a href="#">Find Blood</a>
+                <a href="about-us.html">About Us</a>
+                <a href="verify.html" class="btn btn-secondary">Login</a>
+                <a href="register.html" style="color: white" class="btn btn-primary">Register Now</a>
+                <div class="profile-dropdown-container">
+                    <button class="navbar-profile-icon" id="profile-icon-btn">
+                        <img src="images/pfp.png" alt="Profile">
+                        <span class="dropdown-arrow">▼</span>
+                    </button>
+                    <div class="profile-dropdown" id="profile-dropdown">
+                        <a href="#">Personal Details</a>
+                        <button id="theme-toggle" class="dropdown-item">Dark/Light Mode</button>
+                        <a href="#">Support</a>
+                        <a href="#" id="logout-btn">Log Out</a>
+                    </div>
+                </div>
+            </nav>
+        </div>
+    </header>
+    
+    <main>
+        <section class="hero">
+            <div class="hero-container">
+                <h1>About BloodCloud</h1>
+                <p>Our mission is to bridge the gap between blood donors and those in urgent need, making the process of blood donation and reception as seamless and efficient as possible.</p>
+            </div>
+        </section>
+
+        <section class="how-it-works"> <!-- Reusing 'how-it-works' class for general content section styling -->
+            <div class="how-it-works-container">
+                <h2 style="font-size: 48px;">Our Story</h2>
+                <p style="font-size: 18px;">BloodCloud was founded on the belief that technology can play a vital role in saving lives. We recognized the critical need for a centralized, accessible platform where individuals could easily find and connect with blood donors. Every day, countless lives depend on timely blood transfusions, and we are committed to ensuring that no one has to face this challenge alone.</p>
+                <p style="margin-top: 20px; font-size: 18px;">Our journey began with a simple idea: to create a community where generosity meets necessity. We've built a robust system that allows donors to register their blood type and availability, and recipients to quickly search for compatible donors in their vicinity. We believe in the power of community and the profound impact a single act of kindness can have.</p>
+            </div>
+        </section>
+
+        <!-- This new section creates the full-width colored background for "Our Vision" -->
+        <section class="hero">
+            <div class="hero-container">
+                <h2 style="font-size: 48px;">Our Vision</h2>
+                <p style="font-size: 18px;">To create a world where blood is always available when needed, fostering a global community of selfless donors and ensuring that every patient receives the life-saving support they deserve. We aim to expand our reach, integrate with healthcare providers, and continuously innovate to make blood donation simpler, safer, and more widespread.</p>
+            </div>
+        </section>
+    </main>
+    
+    <!-- New section for "Join Us" at the bottom -->
+    <section class="how-it-works">
+        <div class="how-it-works-container">
+            <h2 style="font-size: 48px;">Join Us</h2>
+            <p style="font-size: 18px;">Whether you are a potential donor, a recipient in need, or someone who wants to support our cause, BloodCloud welcomes you. Together, we can make a significant difference and ensure a healthier future for everyone.</p>
+        </div>
+    </section>
+
+    <footer class="footer">
+        <div class="footer-container">
+            <p style="font-size: 18px;"> 2026 BloodCloud. All rights reserved.</p>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
