@@ -1,0 +1,59 @@
+======================================================================
+EMERGENCY BLOOD AVAILABILITY & NETWORK PLATFORM KNOWLEDGE BASE
+======================================================================
+
+## AVAILABLE PAGES & NAVIGATION ROUTES
+- Homepage / Search Blood: /
+- Emergency Request Form: /emergency-request
+- Real-time Inventory Map: /live-map
+- Hospital & NGO Portal: /partner-login
+- Transfusion & Eligibility Guidelines: /transfusion-info
+- Patient Formalities & Checklist: /formalities
+- Contact Support & Helpline: /contact
+
+----------------------------------------------------------------------
+
+## PLATFORM OVERVIEW & EMERGENCY WORKFLOW
+- Purpose: Connect patients directly with hospitals, blood banks, and NGOs holding real-time blood stock.
+- Searching for Blood: Users select their required Blood Group, Component (Whole Blood, PRBC, Platelets, FFP), and City/Pincode on the homepage (/).
+- Emergency Requests: If stock is not available nearby, users can broadcast an urgent request via /emergency-request to notify registered voluntary donors and partner NGOs in the area.
+
+----------------------------------------------------------------------
+
+## REQUIRED FORMALITIES & DOCUMENTS FOR BLOOD PICKUP
+To collect blood from any partner hospital or blood bank, the patient's representative must bring the following:
+
+1. Doctor's Original Requisition Form: Signed and stamped by a registered medical practitioner.
+2. Patient Blood Sample: 3–5 mL EDTA vial labeled with patient details for cross-matching.
+3. Government Photo ID: Aadhar Card, Voter ID, or Passport of both patient and representative.
+4. Hospital Authorization / Request Letter: Specifying required component units and urgency.
+5. Replacement Blood Note (If applicable): Some banks require donor replacement depending on current emergency reserves.
+
+----------------------------------------------------------------------
+
+## BLOOD COMPATIBILITY CHART (RED BLOOD CELLS)
+- O Negative (O-): Can donate to ALL groups (Universal Red Cell Donor). Can only receive from O-.
+- AB Positive (AB+): Can receive from ALL groups (Universal Red Cell Recipient). Can only donate to AB+.
+- A Positive (A+): Can receive from A+, A-, O+, O-. Can donate to A+, AB+.
+- A Negative (A-): Can receive from A-, O-. Can donate to A+, A-, AB+, AB-.
+- B Positive (B+): Can receive from B+, B-, O+, O-. Can donate to B+, AB+.
+- B Negative (B-): Can receive from B-, O-. Can donate to B+, B-, AB+, AB-.
+- O Positive (O+): Can receive from O+, O-. Can donate to O+, A+, B+, AB+.
+- AB Negative (AB-): Can receive from AB-, A-, B-, O-. Can donate to AB+, AB-.
+
+----------------------------------------------------------------------
+
+## BLOOD TRANSFUSION FAQs & MEDICAL INFORMATION
+- What is Cross-Matching? A laboratory test where patient serum is mixed with donor blood to ensure no dangerous immune reaction occurs before transfusion. It typically takes 45 to 90 minutes.
+- What are Component Types?
+  * PRBC (Packed Red Blood Cells): Used for severe anemia or acute blood loss.
+  * Platelets (SDP / RDP): Used for dengue, cancer treatment, or severe bleeding.
+  * FFP (Fresh Frozen Plasma): Used for clotting factor deficiencies and burn injuries.
+- Pre-Transfusion Safety Check: Medical staff must verify patient name, blood group match, bag number, and expiry date before starting transfusion.
+- Common Signs of Transfusion Reaction: Fever, chills, rash, shortness of breath, back pain, or dark urine. If experienced, transfusion must be stopped immediately.
+
+----------------------------------------------------------------------
+
+## HOSPITAL & NGO PARTNER RULES
+- Stock Updates: Partner facilities are required to update inventory levels every 4 hours or immediately following a unit dispatch.
+- Verification: Only verified medical institutions with valid state/national blood bank licenses are permitted to list stock on /partner-login.
